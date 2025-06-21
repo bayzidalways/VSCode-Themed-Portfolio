@@ -1,43 +1,37 @@
 export const projects = [
   {
-    // To use your own project photo, just place it in /public/assets and write the link as I did: eg: /assets/my_image.jpg
-    // Of course it's best to convert your image file type to webp for better performance on the web!
-    // Or just use a cloud image hosting platform like cloudinary and use the image url from there.
-    ImageURL: "/assets/project-eshterely.webp", //
-    Title: "Eshterely",
+    ImageURL: "/assets/studytogether.webp", // Place your screenshot here
+    Title: "StudyTogether",
     Description:
-      "A full-stack modern e-commerce platform for high-end audio and visual equipment.",
+      "A collaborative study platform where students can form groups, share resources, and learn together in real time.",
     Technologies: [
       "react",
       "javascript",
       "tailwind",
-      "redux toolkit",
+      "firebase",
+      "vite",
       "responsive",
-      "node",
-      "express",
-      "mongodb",
     ],
-    Source: "https://github.com/KareemEhab/Eshterely-Frontend", // Optional!
-    Demo: "https://eshtrely.netlify.app/", // Optional!
+    Source: "https://github.com/bayzidalways/StudyTogether", // Replace with your GitHub repo URL
+    Demo: "#", // Replace with your live demo URL
   },
   {
-    ImageURL: "/assets/project-gamehub.webp",
-    Title: "Game Hub",
+    ImageURL: "/assets/blood-donation.webp",
+    Title: "Blood Donation Management System",
     Description:
-      "A full-stack e-commerce platform for buying and viewing games",
+      "A full-stack Django-based application to manage blood donors, requests, and admin operations efficiently.",
     Technologies: [
-      "angular",
-      "typescript",
-      "tailwind",
-      "ngxs",
-      "responsive",
-      "node",
-      "express",
-      "mongodb",
+      "django",
+      "python",
+      "html",
+      "css",
+      "bootstrap",
+      "sqlite",
       "javascript",
+      "responsive",
     ],
-    Source: "https://github.com/KareemEhab/game-hub-frontend",
-    Demo: "https://game-hub-iti.netlify.app/",
+    Source: "https://github.com/bayzidalways/Boold-Donation-Management-System",
+    Demo: "#",
   },
   {
     ImageURL: "/assets/project-vscode.webp",
@@ -61,34 +55,33 @@ export const projects = [
       "chakra-ui",
       "responsive",
     ],
-    Source: "https://github.com/KareemEhab/kanban-task-management-app",
+    Source: "https://github.com/bayzidalways/Kanban-Board-Task-Management",
     Demo: "https://kanban-task-management-app-jet.vercel.app/",
   },
   {
-    ImageURL: "/assets/project-audiophile.webp",
-    Title: "Audiophile Ecommerce Web Application",
+    ImageURL: "/assets/chef's_cafe.webp", // Add your project screenshot to /public/assets/
+    Title: "Chef's Café",
     Description:
-      "A full-stack ecommerce web application for electornic audio devices.",
-    Technologies: [
-      "node",
-      "express",
-      "react",
-      "mongodb",
-      "typescript",
-      "chakra-ui",
-      "html",
-      "css",
-      "responsive",
-    ],
-    Source: "https://github.com/KareemEhab/audiophile-ecommerce-webapp",
-    Demo: "https://audiophile-ecommerce-webapp.vercel.app/",
+      "A front-end web application for a recipe and food-themed café site with reusable components, Tailwind styling, and JSON-based data display.",
+    Technologies: ["react", "javascript", "tailwind", "vite", "responsive"],
+    Source: "https://github.com/bayzidalways/chef-s-cafe-front_end-project", // Replace with your actual GitHub URL
+    Demo: "#", // Replace with your live site URL
   },
   {
-    ImageURL: "/assets/project-recipepage.webp",
-    Title: "Recipe Page",
-    Description: "A simple recipe page for making an omelette.",
-    Technologies: ["html", "css", "responsive"],
-    Source: "https://github.com/KareemEhab/recipe-page-main",
-    Demo: "https://recipe-page-main-phi.vercel.app/",
+    ImageURL: "/assets/country-info.webp",
+    Title: "Country Info Web App",
+    Description:
+      "A responsive React + TypeScript application that displays information about countries using React Router for navigation.",
+    Technologies: [
+      "react",
+      "typescript",
+      "vite",
+      "react-router",
+      "css",
+      "responsive",
+      "docker",
+    ],
+    Source: "https://github.com/bayzidalways/react-country-info",
+    Demo: "#",
   },
 ];

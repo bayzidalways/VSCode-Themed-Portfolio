@@ -45,7 +45,7 @@
 1. **Fork** this repository to your GitHub account.
 2. **Clone** the forked repository:
    ```bash
-   git clone https://github.com/your-username/vs-code-themed-portfolio.git
+   git clone git@github.com:bayzidalways/VSCode-Themed-Portfolio.git
    ```
 3. Navigate to the project folder:
    ```bash
