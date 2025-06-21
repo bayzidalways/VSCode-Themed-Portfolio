@@ -38,8 +38,8 @@ export const projects = [
     Title: "VSCode Themed Portfolio",
     Description: "My personal portfolio with the Visual Studio Code IDE theme.",
     Technologies: ["react", "typescript", "chakra-ui", "responsive"],
-    Source: "https://github.com/KareemEhab/VSCode-Themed-Portfolio",
-    Demo: "https://vs-code-themed-portfolio-theta.vercel.app/",
+    Source: "https://github.com/bayzidalways/VSCode-Themed-Portfolio",
+    Demo: "https://mdbayzid.netlify.app/",
   },
   {
     ImageURL: "/assets/project-kanban-task-management-app.webp",
